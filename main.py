@@ -24,4 +24,4 @@ def bye():
     return "<p>Bye World! <p>"
 
 # run the flask server on port in debug
-app.run(debug=True,port=5000)
+app.run(debug=True,port=5000, host='0.0.0.0')
